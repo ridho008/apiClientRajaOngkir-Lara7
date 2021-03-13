@@ -17,3 +17,4 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 Route::get('/', 'GetApiController@index');
+Route::get('/getCity/ajax/{id}', 'GetApiController@ajax');
